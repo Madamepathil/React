@@ -1,0 +1,11 @@
+  <motion.div className="title" initial={{ y: -250 }} animate={{ y: -10 }}>
+        <h1>Pizza Joint</h1>
+      </motion.div>
+
+kan animera alla element, sätter motion framför bara. 
+initial = vart den ska börja ifrån och animate, specificerar vilka typ av propery du vill köra, i detta fal positionering på y-axel
+
+transition={{ delay: 0.2 }}, kan påverka delay, 
+
+transition={{ delay: 0.2, type: "spring", stiffness: 150 }} , type är som ease-in-out typm stiffnes, om den ex ska bounca och hur mkt
+
